@@ -47,11 +47,6 @@ Help file:
                                starttime by SurveyCTO). If this option is not
                                used, variable name "starttime" will be
                                assumed.
-        
-    * <b>text_audit(</b><i>varname</i><b>)</b>    (optional) name of variable identifying the
-                               text_audit file name. If this option is not
-                               used, variable name "text_audit" will be
-                               assumed.
 <p>
         <b><u>Description</u></b>
 <p>
