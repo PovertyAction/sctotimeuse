@@ -11,7 +11,7 @@
 
 	{p 8 10 2}
 	{cmd:sctotimeuse}
-	{ifin}{cmd:, {opth media(string)} {opth enumerator(varname)} {opth outcome(varname)}} [{opth save(string)} {opth starttime(varname)} {opth text_audit(varname)} {opth type(string)} ]
+	{ifin}{cmd:, {opth media(string)} {opth enumerator(varname)} {opth outcome(varname)}} [{opth save(string)} {opth starttime(varname)} {opth type(string)} ]
 
 
 	{* Using -help bcstats- as a template.}{...}
@@ -23,7 +23,6 @@
 	{p2coldent:* {opth outcome(varname)}}name of variable identifying survey outcome (for example, success or refusal){p_end}
 	{p2coldent:* {opth save(string)}}(optional) file path to folder where graphs should be saved (in pdf format){p_end}
 	{p2coldent:* {opth starttime(varname)}}(optional) name of variable identifying the survey starttime (automatically named starttime by SurveyCTO). If this option is not used, variable name "starttime" will be assumed.{p_end}
-	{p2coldent:* {opth text_audit(varname)}}(optional) name of variable identifying the text_audit file name. If this option is not used, variable name "text_audit" will be assumed.{p_end}
 	{p2coldent:* {opth type(string)}}(optional) file type of saved graphs. Default is pdf if not specified.{p_end}
 
 	{title:Description}
